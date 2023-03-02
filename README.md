@@ -1,11 +1,11 @@
-About trame-simput
-==================
+About trame-simput-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-simput-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/trame-simput/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/trame-simput-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simput implementation for trame
 
