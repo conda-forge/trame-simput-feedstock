@@ -18,9 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - setuptools
+    - python {{ python_min }}
   run:
-    - python >=3.7
+    - python >={{ python_min}}
     - pyyaml
     - trame-client
 
@@ -31,6 +32,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
