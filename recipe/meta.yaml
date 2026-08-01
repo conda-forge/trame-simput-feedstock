@@ -1,5 +1,5 @@
 {% set name = "trame-simput" %}
-{% set version = "2.6.5" %}
+{% set version = "2.6.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9e9d5b2edcdaff6c141cb383115483c187f917bbf6bd8f2f2a9d1b5bd561f180
+  sha256: ed27c195b3fc173946f5713a606dc246fce3c6d5a8d314f685f6e470ef2ffbfd
 
 build:
   number: 0
